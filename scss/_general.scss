@@ -1,0 +1,22 @@
+.fondo{ background-image: url(../img/fondoGris.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+
+      /* COLOR DE LOS ANCHORDS DE LA NAV */
+      .blacktext{
+        color: black;
+        font-weight: bold;
+      
+      }
+      a{
+        text-decoration: none;
+      }
+      
+      /* tamaño imagenes del carrousel */
+      .pepe{
+        height: 20rem !important;
+      }
+      

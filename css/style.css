@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.imginsta img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.fondo {
+  background-image: url(../img/fondoGris.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+/* COLOR DE LOS ANCHORDS DE LA NAV */
+.blacktext {
+  color: black;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* tamaño imagenes del carrousel */
+.pepe {
+  height: 20rem !important;
+}
+
+.nav {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.logo {
+  border-radius: 20px;
+  width: 10%;
+  height: 10%;
+}
+
+.bienvenidos {
+  text-align: center;
+  color: black;
+  padding: 5px;
+}
+
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
+.imgcjh {
+  width: 200px;
+  height: 200px;
+  margin-left: 42%;
+}
+
+/* animaciones de la nav */
+.blacktext:hover {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 25px;
+  transition: 1s all;
+}
+
+/*# sourceMappingURL=style.css.map */
