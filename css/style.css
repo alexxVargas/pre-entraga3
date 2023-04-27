@@ -1,10 +1,4 @@
 @charset "UTF-8";
-.imginsta img {
-  object-fit: contain;
-  width: 100px;
-  height: 100px;
-}
-
 .fondo {
   background-image: url(../img/fondoGris.jpg);
   background-repeat: no-repeat;
@@ -34,12 +28,6 @@ a {
   color: black;
 }
 
-.logo {
-  border-radius: 20px;
-  width: 10%;
-  height: 10%;
-}
-
 .bienvenidos {
   text-align: center;
   color: black;
@@ -49,12 +37,6 @@ a {
 .text {
   text-align: center;
   padding: 10px;
-}
-
-.imgcjh {
-  width: 200px;
-  height: 200px;
-  margin-left: 42%;
 }
 
 /* animaciones de la nav */
